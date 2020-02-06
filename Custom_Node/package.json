@@ -1,0 +1,31 @@
+{
+  "name": "node-red-contrib-example-lower-case",
+  "version": "1.0.0",
+  "description": "Covert Lower To Upper",
+  "main": "lower-case.js",
+  "scripts": {
+    "test": "node lower-case.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josekavunkal123/CustomNodes.git"
+  },
+  "keywords": [
+    "CustomNodes"
+  ],
+  "node-red": {
+    "nodes": {
+      "lower-case": "lower-case.js"
+    }
+  },
+  "author": "Jose Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josekavunkal123/CustomNodes/issues"
+  },
+  "homepage": "https://github.com/josekavunkal123/CustomNodes#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-red-project": "file:C:/Users/cyjajose/.node-red"
+  }
+}
